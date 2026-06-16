@@ -5,7 +5,7 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://REPLACE-WITH-YOUR-BACKEND.onrender.com/api/:path*"
+      "destination": "https://idea-synthesizer-api.onrender.com/api/:path*"
     }
   ]
 }
