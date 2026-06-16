@@ -1,0 +1,16 @@
+# ── 비밀키 (절대 커밋 금지) ──
+.env
+.env.*
+
+# ── Python ──
+venv/
+__pycache__/
+*.pyc
+cache/
+
+# ── Node / 빌드 산출물 ──
+node_modules/
+dist/
+
+# ── OS ──
+.DS_Store

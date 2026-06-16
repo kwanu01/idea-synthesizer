@@ -1,0 +1,15 @@
+# Render 백엔드 배포 청사진 (Blueprint).
+# Render 대시보드 → New → Blueprint → 이 저장소 선택하면 자동 인식.
+# OPENAI_API_KEY 값은 커밋하지 않고 Render 대시보드에서 직접 입력한다 (sync: false).
+services:
+  - type: web
+    name: idea-synthesizer-api
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python synth/server.py
+    envVars:
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: PYTHON_VERSION
+        value: "3.11.9"

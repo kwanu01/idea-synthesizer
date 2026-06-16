@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Idea Synthesizer favicon — 라이트 톤. 모양은 동일(페이더 2 + 오렌지 노브), 배경만 밝게. -->
+  <rect x="0.5" y="0.5" width="63" height="63" rx="13" fill="#ffffff" stroke="#e7e9ed"/>
+  <!-- 페이더 2 — 라이트 그레이 트랙 + 다크 핸들 -->
+  <rect x="16" y="13" width="7" height="38" rx="3.5" fill="#c8cbd2"/>
+  <rect x="13" y="33" width="13" height="8" rx="2.5" fill="#1c1e24"/>
+  <rect x="30" y="13" width="7" height="38" rx="3.5" fill="#c8cbd2"/>
+  <rect x="27" y="19" width="13" height="8" rx="2.5" fill="#1c1e24"/>
+  <!-- 노브 — 시그널 오렌지 (브랜드 포인트) + 다크 인디케이터 -->
+  <circle cx="48" cy="40" r="10" fill="#f97316"/>
+  <line x1="48" y1="40" x2="48" y2="32" stroke="#1c1e24" stroke-width="2.6" stroke-linecap="round"/>
+</svg>
